@@ -10,6 +10,15 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.Android_Project_v2">
         <activity
+            android:name=".LessonDetailActivity"
+            android:exported="false"
+            android:label="Lesson Details"
+            android:parentActivityName=".LessonListActivity"/>
+        <activity
+            android:name=".LessonListActivity"
+            android:exported="false"
+            android:label="Lesson List"/>
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
